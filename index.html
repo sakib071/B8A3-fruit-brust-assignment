@@ -22,9 +22,38 @@
 </head>
 
 <body>
-    <header>
+    <header class="container mx-auto">
         <nav>
+            <div class="navbar p-7 m-5 bg-[#F85559] text-white rounded-full ">
+                <div class="navbar-start">
+                    <ul class="flex gap-7 px-5 text-lg">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Shop</li>
+                        <li>All Fruits</li>
+                    </ul>
+                </div>
+                <div class="navbar-center">
+                    <img class="w-10" src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-3xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <!-- <button class="btn w-auto rounded-full flex gap-60 justify-between">
+                        <p class="text-gray-400">Search Here</p>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button> -->
+                    <div class="relative px-2 flex items-center space-x-2 bg-white rounded-full">
+                        <input type="text" placeholder="Search here"
+                            class="pl-4 rounded-full outline-none w-64 text-slate-500" />
+                        <button class="btn w-auto rounded-full flex gap-60 justify-between bg-white border-0">
+                            <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                        </button>
+                    </div>
 
+
+
+                </div>
+            </div>
         </nav>
     </header>
     <main>
